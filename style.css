@@ -1,0 +1,181 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: black;
+    background-image: url(./img-1/dk.jpg);
+    background-size: cover;
+    height: 2460px;
+}
+
+body nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px; 
+}
+
+body nav p{
+    font-size: 38px;
+    margin-left: 38px;
+}
+
+span{
+    color: #f9004d;
+}
+
+body nav a{
+    text-decoration: none;
+    font-size:20px ;
+    margin-top: 55px;
+    margin-right: -70px;
+   color: black;
+   font-weight: 550;
+}
+
+body nav a:hover{
+    color: #f9004d;
+    transition: 0.4s;
+}
+
+body nav button{
+    margin-top: 40px;
+    margin-bottom: 34px;
+    border-radius: 26px;
+    font-size: 20px;
+    background-color:#f9004d;
+    color: white;
+}
+
+body nav button:hover{
+    background-color: black;
+}
+
+div main {
+  margin-top: 210px;
+  margin-left: 220px;
+  line-height: 16px;
+}
+
+div main p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+div main h1{
+    font-size: 50px;
+}
+
+div main h4{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+div main input{
+    border-radius: 13px;
+    padding-left: 10px;
+    padding: 4px;
+    width: 250px;
+}
+
+div second_contain h1{
+    padding-left: 220px;
+    margin-top: 350px;
+    font-size: 50px; 
+}
+
+div second_contain h4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 220px;
+} 
+
+div second_contain p{
+    font-size: 19px;
+    padding-left: 220px;
+    font-weight: 700;
+    color:rgb(69, 47, 193)
+}
+
+div second_contain button{
+    margin-left: 220px;
+    padding: 6px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 26px;
+    font-size: 20px;
+    background-color:#f9004d;
+    color: white;
+}
+
+div second_contain button:hover{
+    background-color: black;
+}
+
+div third_container .one{
+    height: 220px;
+    width: 280px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 130px;
+    background-color: rgb(68, 63, 63);
+    color: white;
+    text-align: center;
+    line-height: 1.3;
+    padding-top: 20px;
+}
+
+div third_container h1 {
+    font-size: 50px;
+    margin-top: 750px;
+    margin-left: 134px;
+}
+
+div third_container .one i {
+    color:#f9004d;
+}
+
+div third_container .one p{
+    color : rgb(241, 118, 215) ;
+}
+
+div third_container .one button{
+    border-radius: 10px;
+    color:white;
+    background-color: #f9004d;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+div third_container .one button:hover{
+    background-color: black;
+}
+
+div footer {
+   margin-top: 40px;
+   background-color:  rgb(68, 63, 63);
+   text-align: center; 
+}
+
+div footer h1{
+    color: white;
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 43px;
+} 
+
+div footer button{
+    border-radius: 26px;
+    font-size: 20px;
+    background-color:#f9004d;
+    color: white;
+    padding: 9px 17px 9px 17px;
+    margin-bottom: 20px;
+}
+  
+div footer button:hover{
+    background-color: black;
+}
